@@ -1,0 +1,23 @@
+body{
+  background-image: url("background.jpg");
+font-family: sans-serif;
+color: white;
+}
+button {
+    border: black;
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+.center {
+    text-align: center;
+    align-items: center;
+}

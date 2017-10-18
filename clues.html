@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Can you guess the number? - Clues</title>
+  <link rel="stylesheet" href="main.css">
+  <script type="text/javascript">
+  function numberGuess() {
+  var guessednumber = prompt("What is the number?");
+  if (guessednumber == 100) {
+    alert("You did it!");
+    window.location = "correct.html"
+  } else {
+    alert("Try again! Wrong Number!");
+    }
+  }
+  </script>
+</head>
+<body>
+<div class="center"><h1>Guess the Number! - Clues</h1>
+<h5>The clues are:</h5>
+<h6>The GCF of my number and 50 is 50.</h6>
+<h6>The LCM of my number and 50 is 100.</h6>
+<h6>My number is the solution of: (4642+2)+2x10-40÷20÷2-2240.</h6>
+<h6>My number is 10<sup>2</sup>-50+25-1+2+24.</h6>
+<h6>If you distribute you wil get my number: 50(1+1)x2-1-99.</h6>
+<br>
+<button type="button" name="guessNumber" onclick="numberGuess()">If you think you know my number click here to guess!</button>
+</div>
+</body>
+</html>
